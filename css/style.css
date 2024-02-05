@@ -1,0 +1,61 @@
+/* Body styling */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Button styling */
+button {
+    padding: 8px;
+    margin: 5px;
+    background-color: #ffb6c1; /* Pastel pink */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: #ff9aa2; /* Lighter pastel pink on hover */
+}
+
+/* Paragraph styling */
+p {
+    margin: 0;
+    color: #555;
+    text-align: center;
+}
+
+/* Story styling */
+#story {
+    font-weight: bold;
+    color: #007bff;
+}
